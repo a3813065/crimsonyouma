@@ -3,8 +3,8 @@ with open("uuid_map.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
 # 在 651 行插入新值
-new_index = 4221
-insert_position = 4221  # 651 行的索引位置是 650（索引從 0 開始）
+new_index = 4509
+insert_position = 4509  # 651 行的索引位置是 650（索引從 0 開始）
 
 # 插入新條目，並將後面的條目往後移
 lines.insert(insert_position, f"{new_index},0\n")
